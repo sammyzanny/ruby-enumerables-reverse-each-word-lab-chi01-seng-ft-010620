@@ -1,4 +1,3 @@
 def reverse_each_word(s)
-r = s.split(" ").reverse
-p = r.join(" ")
+r = s.reverse.split(" ")
 end
